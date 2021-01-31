@@ -123,12 +123,4 @@ public class DeckOfCardsRequester {
                 .extract()
                 .as(DeckInfo.class);
     }
-
-    //Drawing from Piles
-    //
-    //https://deckofcardsapi.com/api/deck/<<deck_id>>/pile/<<pile_name>>/draw/?cards=AS
-    //https://deckofcardsapi.com/api/deck/<<deck_id>>/pile/<<pile_name>>/draw/?count=2
-    //https://deckofcardsapi.com/api/deck/<<deck_id>>/draw/bottom/
-    //
-    //Specify the cards that you want to draw from the pile. The default is to just draw off the top of the pile (it's a stack). Or add the bottom parameter to the URL to draw from the bottom.
 }
